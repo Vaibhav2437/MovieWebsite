@@ -1,0 +1,144 @@
+Container styling
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  } */
+  
+  /* Movie Detail Section */
+  .datamovie {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* .datamovie img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+  } */
+  
+  .text-start {
+    margin-left: 15px;
+    text-align: left;
+  }
+  
+  .text-start h3 {
+    font-size: 1.5rem;
+  }
+  
+  .text-start p {
+    font-size: 0.9rem;
+  }
+  
+  .genres p {
+    margin-right: 10px;
+  }
+  
+  .w-75 {
+    width: 75%;
+  }
+  
+  .poster img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Cast Section */
+  .cast-section {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .cast-card {
+    width: 17rem;
+    margin: 15px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .cast-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #444;
+  }
+  
+  .cast-card p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .datamovie {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .datamovie img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .text-start h3 {
+      font-size: 1.25rem;
+    }
+  
+    .cast-section {
+      justify-content: center;
+    }
+  
+    .cast-card {
+      width: 150px;
+      margin: 10px;
+    }
+  
+    .poster img {
+      height: 200px;
+      display: none;
+      object-fit: cover;
+    }
+  }
+  .data{
+    font-size:0.8rem;
+  }
+  @media (max-width: 576px) {
+    .datamovie {
+      padding: 10px 0;
+    }
+  
+    .text-start h3 {
+      font-size: 1rem;
+    }
+    .poster-img{
+        height:50px
+        width
+    }
+    .data{
+        font-size: 12px;
+    }
+    .poster img {
+      height: 150px;
+    }
+    .data{
+        width:100%;
+    }
+    .cast-card {
+      width: 140px;
+    }
+  
+    .cast-card p {
+      font-size: 0.8rem;
+    }
+  }
+  

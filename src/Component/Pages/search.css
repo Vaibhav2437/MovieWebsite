@@ -1,0 +1,47 @@
+.movie-list {
+    padding: 20px;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie-item {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    /* background-color: #f8f9fa; */
+    border-radius: 8px;
+    padding: 10px;
+   
+    transition: transform 0.3s ease;
+}
+
+
+.movie-poster {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.movie-info {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.movie-info strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.movie-info small {
+    font-size: 12px;
+    color: #555;
+}

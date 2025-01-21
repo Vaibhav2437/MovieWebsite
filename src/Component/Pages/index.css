@@ -1,0 +1,32 @@
+card1{
+    width:25%;
+}
+.content1{
+   margin: auto;
+}
+.img1{
+    width:50%;
+}
+  /* Adjust card size and image size for small screens */
+  @media (max-width: 576px) {
+    .card {
+      width: 100%;
+    }
+  
+    .card-img-top {
+      height: 180px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card-img-top {
+      height: 250px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-img-top {
+      height: 300px;
+    }
+  }
+  
